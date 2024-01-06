@@ -11,3 +11,21 @@ side 2 would fit with side 2, etc. On the last images you can see how 3 pieces c
 
 
 # result
+
+Even though the sides 1 and 2 look similar, they are actually mirrored and that’s why they have a
+different number. There could be more than 2 pieces with the same side. That means that those
+pieces can fit together. The sides of the pieces are named sequentially, clockwise, starting with the
+left side. For example, the first piece is 0 1 2 0.
+The puzzle file is defined on a text file. A puzzle has a width and a height, which are defined on the
+first row of the file; then, line by line represents each one of the pieces. For example, this is a 16-
+piece puzzle:
+4 4
+1 4 3 5
+0 5 3 5
+1 5 3 0
+5 4 5 2
+1 5 0 0
+0 5 2 1
+1 0 4 4
+2 4 4 2
+....
